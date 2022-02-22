@@ -3,9 +3,9 @@
 
 namespace Alura\Banco\Servico;
 
-use Alura\Banco\Modelo\Funcionario;
-use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Modelo\Funcionario\Funcionario;
 
+// isso é uma classe de serviço:
 class ControladorDeBonificacoes
 {
 

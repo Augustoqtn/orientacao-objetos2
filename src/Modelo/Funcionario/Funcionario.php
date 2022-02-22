@@ -1,12 +1,14 @@
 <?php
-namespace Alura\Banco\Modelo;
 
-require_once 'autoload.php';
+namespace Alura\Banco\Modelo\Funcionario;
+
+use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Modelo\Pessoa;
 
 class Funcionario extends Pessoa
 {
     private string $cargo;
-    private float $salario;
+    private  $salario;
 
     public function __construct($nome,CPF $cpf,$cargo, float $salario)
     {
