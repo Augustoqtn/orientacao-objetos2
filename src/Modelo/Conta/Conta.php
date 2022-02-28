@@ -29,7 +29,7 @@ abstract  class Conta
             echo "Saldo indisponível";
             return;
         }
-    
+
         $this->saldo -= $valorSaque;
     }
 
@@ -64,5 +64,4 @@ abstract  class Conta
     }
 
     abstract protected function percentualTarifa(): float;
-    
 }

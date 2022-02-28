@@ -2,10 +2,11 @@
 
 namespace Alura\Banco\Modelo\Funcionario;
 
+use Alura\Banco\Modelo\Autenticavel;
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Pessoa;
 
-abstract class Funcionario extends Pessoa
+abstract class Funcionario extends Pessoa implements Autenticavel
 {
     private  $salario;
 
@@ -41,5 +42,4 @@ abstract class Funcionario extends Pessoa
     }
 
     abstract public function calculaBonificacao(): float;
-    
 }
