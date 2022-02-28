@@ -12,11 +12,11 @@ $conta = new ContaCorrente(
     new Titular(
         new CPF('123.456.789-10'),
         'Augusto Quintana',
-            new Endereco('potiguara','bairro oeste','rua tal','420')
+        new Endereco('potiguara', 'bairro oeste', 'rua tal', '420')
 
-            )
-    );
-    
-    $conta->deposita(500);
-    $conta->saca(100);
-    echo $conta->recuperaSaldo();
+    )
+);
+
+$conta->deposita(500);
+$conta->saca(100);
+echo $conta->recuperaSaldo();

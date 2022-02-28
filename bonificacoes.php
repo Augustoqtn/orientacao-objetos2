@@ -4,7 +4,7 @@ require_once 'autoload.php';
 
 use Alura\Banco\Servico\ControladorDeBonificacoes;
 use Alura\Banco\Modelo\{CPF};
-use Alura\Banco\Modelo\Funcionario\{Diretor, Gerente, Desenvolvedor,EditorVideo};
+use Alura\Banco\Modelo\Funcionario\{Diretor, Gerente, Desenvolvedor, EditorVideo};
 
 $umDesenvolvedor = new Desenvolvedor('Augusto Brito', new CPF('123.123.123-10'), 1000);
 

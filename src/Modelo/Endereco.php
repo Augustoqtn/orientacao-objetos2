@@ -2,7 +2,7 @@
 
 namespace Alura\Banco\Modelo;
 
-class Endereco 
+class Endereco
 {
     private string $cidade;
     private string $bairro;
@@ -10,20 +10,20 @@ class Endereco
     private string $numero;
 
 
-    public function __construct($cidade,$bairro,$rua,$numero)
+    public function __construct($cidade, $bairro, $rua, $numero)
     {
         $this->cidade = $cidade;
         $this->bairro = $bairro;
         $this->rua = $rua;
         $this->numero = $numero;
     }
-    
+
 
     public function recuperaCidade()
     {
         return $this->cidade;
     }
-    
+
     public function recuperaBairro()
     {
         return $this->bairro;
@@ -38,8 +38,4 @@ class Endereco
     {
         return $this->numero;
     }
-
-
-
-
 }

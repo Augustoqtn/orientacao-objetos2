@@ -11,15 +11,15 @@ abstract class Pessoa
     {
         $this->validaNomeTitular($nome);
         $this->nome = $nome;
-        $this->cpf = $cpf;     
+        $this->cpf = $cpf;
     }
 
-    public function recuperaNome():string
+    public function recuperaNome(): string
     {
         return $this->nome;
     }
 
-    public function recuperaCpf():string
+    public function recuperaCpf(): string
     {
         return $this->cpf->recuperaNumero();
     }
@@ -31,5 +31,4 @@ abstract class Pessoa
             exit();
         }
     }
-
 }

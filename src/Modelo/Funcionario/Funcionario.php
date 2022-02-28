@@ -41,5 +41,4 @@ abstract class Funcionario extends Pessoa
     }
 
     abstract public function calculaBonificacao(): float;
-    
 }
