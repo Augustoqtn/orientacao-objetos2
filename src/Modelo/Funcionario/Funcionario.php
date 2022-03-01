@@ -6,7 +6,7 @@ use Alura\Banco\Modelo\Autenticavel;
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Pessoa;
 
-abstract class Funcionario extends Pessoa implements Autenticavel
+abstract class Funcionario extends Pessoa 
 {
     private  $salario;
 
