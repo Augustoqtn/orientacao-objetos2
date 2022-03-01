@@ -49,4 +49,9 @@ class Endereco
         $metudo = 'recupera' . ucfirst($nomeAtributo);
         return $this->$metudo();
     }
+
+    public function __set($nome, $valor)
+    {
+        $this->$nome = $valor;
+    }
 }
